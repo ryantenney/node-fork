@@ -1,0 +1,11 @@
+{ "name" : "fork"
+, "version" : "0.0.1"
+, "description" : "Very simple support for process forking"
+, "author": "Ryan W Tenney"
+, "main": "./fork.js"
+, "scripts": { "install": "node-waf configure build" }
+, "repository" : { "type" : "git"
+                 , "url" : "http://github.com/ryantenney/node-fork.git"
+                 }
+, "bugs" : { "web" : "http://github.com/ryantenney/node-fork/issues" }
+}
