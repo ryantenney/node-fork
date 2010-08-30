@@ -1,5 +1,5 @@
 { "name" : "fork"
-, "version" : "0.0.1"
+, "version" : "0.0.2"
 , "description" : "Very simple support for process forking"
 , "author": "Ryan W Tenney"
 , "main": "./fork.js"
