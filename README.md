@@ -13,7 +13,7 @@ If `node-fork` begins to smoke, get away immediately. Seek shelter and cover hea
 Do not taunt `node-fork`.  
 Accept no substitutes!
 
-**DO NOT** invoke `fork()` while running node-repl. I can't guarantee similar results, but when I did it, my Mac threw up a grey screen of death: http://img.ly/1ZxD
+**DO NOT** invoke `fork()` while running node-repl. I can't guarantee similar results, but when I did it, my Mac threw up a grey screen of death: <http://img.ly/1ZxD>
 
 Information
 -----------
@@ -31,9 +31,9 @@ Windows users, prerequisite for this to work: `format c:`, then install any othe
 License
 -------
 Copyright 2010 Ryan W Tenney  
-http://github.com/ryantenney/node-fork/  
+<http://github.com/ryantenney/node-fork/>  
 Released under the MIT Licence  
 
-Thanks to http://www.theorie.physik.unizh.ch/~dpotter/howto/daemonize  
+Thanks to <http://www.theorie.physik.unizh.ch/~dpotter/howto/daemonize>  
 for the function daemonize, modified slightly to fit this purpose.  
 daemonize() function source released into the Public Domain by Doug Potter  
