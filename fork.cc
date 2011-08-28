@@ -24,7 +24,7 @@
 
 #include <v8.h>
 #include <unistd.h>
-#include "ev.h"
+#include <ev.h>
 
 #include "fork.h"
 
@@ -48,7 +48,7 @@ fork_fn (const Arguments& args)
 	HandleScope scope;
 
 	pid_t pid = fork();
-	ev_default_fork();
+	ev_loop_fork(EV_DEFAULT_UC);
 
 	if (pid < 0)
 	{
@@ -75,7 +75,7 @@ daemonize_fn (const Arguments& args)
 
 	/* Fork off the parent process */
 	pid = fork();
-	ev_default_fork();
+	ev_loop_fork(EV_DEFAULT_UC);
 
 	if (pid < 0)
 	{
