@@ -1,4 +1,4 @@
-var sys = require('sys'),
+var util = require('util'),
 	daemonize = require('./fork').daemonize;
 
 console.log("Going rogue.");
