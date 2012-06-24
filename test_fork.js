@@ -1,4 +1,4 @@
-var sys = require('sys'),
+var util = require('util'),
 	fork = require('./fork').fork;
 
 var i = 0, pid = -1;
