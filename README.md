@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/ryantenney/node-fork.png)](http://travis-ci.org/ryantenney/node-fork)
 node-fork
 =========
 
