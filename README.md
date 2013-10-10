@@ -1,6 +1,8 @@
 node-fork
 =========
 
+**ABANDONED (probably doesn't even work anymore)**
+
 Simple process forking for Node.js  
 Please read me in full before using.
 
